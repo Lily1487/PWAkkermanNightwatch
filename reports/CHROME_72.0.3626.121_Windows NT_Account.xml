@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="9">
+
+  <testsuite name="Account"
+    errors="1" failures="0" hostname="" id="" package="Account" skipped="0"
+    tests="9" time="16.08" timestamp="Sun, 24 Mar 2019 19:03:57 GMT">
+  
+    <testcase name="User is on the Log in page" classname="Account" time="5.782" assertions="0">
+    </testcase>
+  
+    <testcase name="The user clicks on the Login option" classname="Account" time="1.007" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="and enters valid username and password" classname="Account" time="0.8590" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="clicks on the Login button and logs in to his account" classname="Account" time="0.1130" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="user goes to the sales page" classname="Account" time="0.3970" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="The user clicks on My Account option" classname="Account" time="1.349" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="and updates his first name on his account" classname="Account" time="0.7310" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="The user makes the Ludwig II pen his favorite" classname="Account" time="4.672" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="and the user Logs Out of his account" classname="Account" time="1.170" assertions="1">
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#wrapper &gt; div.main-container &gt; div &gt; div &gt; div &gt; div.col-main.col-xs-12.col-sm-9 &gt; div.panel.panel-default &gt; div.panel-body &gt; div &gt; ul.products-grid.row &gt; li &gt; div &gt; div.product-description-container &gt; div:nth-child(5) &gt; form &gt; div &gt; a&#34; using: css selector
+    at Object.The user makes the Ludwig II pen his favorite (C:\Nightwatch\PWAkkerman\tests\Account.js:69:8)
+    at Module.call (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

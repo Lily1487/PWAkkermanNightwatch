@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="DemoGoogleTest"
+    errors="0" failures="1" hostname="" id="" package="DemoGoogleTest" skipped="0"
+    tests="1" time="6.460" timestamp="Sun, 24 Mar 2019 17:29:02 GMT">
+  
+    <testcase name="Demo test Google" classname="DemoGoogleTest" time="6.460" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;button[name=btnK]&gt; to be present for 1000 milliseconds.">    at Object.Demo test Google (C:\Nightwatch\PWAkkerman\tests\DemoGoogleTest.js:9:8)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;a[href=&#34;/en/profile/personalinfo/&#34;]&#34; using: css selector
+    at Object.and updates his first name on his account (C:\Nightwatch\PWAkkerman\tests\Account.js:47:8)
+    at Module.call (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+  Error while running [Shopping Basket / and adds them to his shopping basket]:
+
+  TypeError: browser.click(...).click(...).expect.element(...).text.to.equal(...).saveScreenshot is not a function
+    at Object.and adds them to his shopping basket (C:\Nightwatch\PWAkkerman\tests\shoppingBasket.js:52:7)
+    at Module.call (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

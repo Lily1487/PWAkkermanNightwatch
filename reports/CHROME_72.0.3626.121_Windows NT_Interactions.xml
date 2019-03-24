@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="7">
+
+  <testsuite name="Interactions"
+    errors="0" failures="1" hostname="" id="" package="Interactions" skipped="1"
+    tests="7" time="16.07" timestamp="Sun, 24 Mar 2019 17:29:08 GMT">
+  
+    <testcase name="User navigates to the main page" classname="Interactions" time="8.551" assertions="0">
+    </testcase>
+  
+    <testcase name="then searches for Ludwig II fountain pen" classname="Interactions" time="1.666" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="The user searches for sales" classname="Interactions" time="1.126" assertions="0">
+    </testcase>
+  
+    <testcase name="and sorts the sales by descending price" classname="Interactions" time="1.125" assertions="0">
+    </testcase>
+  
+    <testcase name="then sorts the sales by ascending price" classname="Interactions" time="1.397" assertions="0">
+    </testcase>
+  
+    <testcase name="The user clicks on the Customer Service links" classname="Interactions" time="2.204" assertions="1">  <failure message="Timed out while waiting for element &lt;//span[contains(text(), &#34;Way of delivering&#34;)]&gt; to be present for 1000 milliseconds.">    at Object.The user clicks on the Customer Service links (C:\Nightwatch\PWAkkerman\tests\Interactions.js:41:8)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;a[href=&#34;/en/profile/personalinfo/&#34;]&#34; using: css selector
+    at Object.and updates his first name on his account (C:\Nightwatch\PWAkkerman\tests\Account.js:47:8)
+    at Module.call (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+  Error while running [Shopping Basket / and adds them to his shopping basket]:
+
+  TypeError: browser.click(...).click(...).expect.element(...).text.to.equal(...).saveScreenshot is not a function
+    at Object.and adds them to his shopping basket (C:\Nightwatch\PWAkkerman\tests\shoppingBasket.js:52:7)
+    at Module.call (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="The user changes the site to Dutch" classname="Interactions">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="9">
+
+  <testsuite name="Account"
+    errors="1" failures="1" hostname="" id="" package="Account" skipped="2"
+    tests="9" time="8.968" timestamp="Sat, 23 Mar 2019 11:40:02 GMT">
+  
+    <testcase name="User is on the Log in page" classname="Account" time="5.611" assertions="0">
+    </testcase>
+  
+    <testcase name="The user clicks on the Login option" classname="Account" time="0.9860" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="and enters valid username and password" classname="Account" time="0.7620" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="clicks on the Login button and logs in to his account" classname="Account" time="0.08000" assertions="0">
+    </testcase>
+  
+    <testcase name="user goes to the sales page" classname="Account" time="0.2870" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="The user clicks on My Account option" classname="Account" time="0.05100" assertions="0">
+    </testcase>
+  
+    <testcase name="and updates his first name on his account" classname="Account" time="1.191" assertions="1">  <failure message="Timed out while waiting for element &lt;//span[contains(text(), &#34;Personal information&#34;)]&gt; to be present for 1000 milliseconds.">    at Object.and updates his first name on his account (C:\Nightwatch\PWAkkerman\tests\Account.js:49:8)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;a[href=&#34;/en/profile/personalinfo/&#34;]&#34; using: css selector
+    at Object.and updates his first name on his account (C:\Nightwatch\PWAkkerman\tests\Account.js:47:8)
+    at Module.call (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\river\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="The user makes the Ludwig II pen his favorite" classname="Account">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="and the user Logs Out of his account" classname="Account">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
