@@ -65,7 +65,7 @@ module.exports = {
   	  .waitForElementVisible('input[id=tbSearch]', 1000)
   	  .setValue('input[id=tbSearch]', 'Ludwig II')
       .click('button[id=btnSearch]')
-      .pause(3000)
+      .waitForElementVisible('#wrapper > div.main-container > div > div > div > div.col-main.col-xs-12.col-sm-9 > div.panel.panel-default > div.panel-body > div > ul.products-grid.row > li > div > div.product-description-container > div:nth-child(5) > form > div > a', 2000)
       .click('#wrapper > div.main-container > div > div > div > div.col-main.col-xs-12.col-sm-9 > div.panel.panel-default > div.panel-body > div > ul.products-grid.row > li > div > div.product-description-container > div:nth-child(5) > form > div > a')
       .saveScreenshot('screenshots/favourites.png')
   },
